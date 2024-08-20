@@ -19,7 +19,11 @@ def run_pytest(pytest_path):
 
 # COMMAND ----------
 
-run_pytest("transforms/test_flight_transforms.py")
+run_pytest("unit_transforms/test_flight_transforms.py")
+
+# COMMAND ----------
+
+run_pytest("unit_utils/test_flight_utils.py")
 
 # COMMAND ----------
 
